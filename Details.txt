@@ -1,0 +1,12 @@
+Render URL : https://file-system-tkk3.onrender.com/
+Enpoint : api/create
+Github URL : https://github.com/vivek2k/GUVI-Day37-Assignment
+
+postman post request : https://file-system-tkk3.onrender.com/api/create
+
+JSON : 
+
+{
+  "folder": "./",
+  "fileName": "example1.txt"
+}
