@@ -8,7 +8,7 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-app.post('https://file-system-tkk3.onrender.com/api/create', (req, res) => {
+app.post('https://file-system-tkk3.onrender.com/', (req, res) => {
     const { folder, fileName } = req.body;
 
     const timestamp = new Date().toISOString();
